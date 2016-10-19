@@ -1,7 +1,8 @@
 # pm2 
 
-## Select the Solution Type
+## Installation
 > $ npm install pm2@latest -g
+>
 
     | fdfd | description |
     | :-------------- | :------------ |
