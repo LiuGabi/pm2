@@ -6,6 +6,23 @@
 
 > ### Usage
 
+    $ pm2 start app.js
+    
+> ### Application declaration
+  #### process.yml
+
+
+    apps:
+    - script   : app.js
+    instances: 4
+    exec_mode: cluster
+    - script : worker.js
+    watch  : true
+    env    :
+    NODE_ENV: development
+    env_production:
+    NODE_ENV: production  
+
 
 
 | Tables        | Are           | Cool   |
