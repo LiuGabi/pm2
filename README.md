@@ -35,10 +35,14 @@
 + $HOME/.pm2/pub.sock Socket file for publishable events
 + $HOME/.pm2/conf.js PM2 Configuration
 
+> ### 备忘单--关于命令
 
-
-| Tables        | Are           | Cool   |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| 命令        | 注释           |
+| ------------- |:-------------:|
+| # Fork mode |
+| $ pm2 start app.js --name my-api      | Name process |
+| # Cluster mode |
+| $ pm2 start app.js -i 0      | 根据有效CPU数目启动最大进程数目      |
+| $ pm2 start app.js -i max  | 根据有效CPU数目启动最大进程数目      |
+| # Listing |
+| $ pm2 list  | 显示所有进程状态    |
