@@ -1,7 +1,7 @@
 # pm2 
 
-## Installation
-> ''$ npm install pm2@latest -g''
+> #Installation
+''$ npm install pm2@latest -g''
 
     | fdfd | description |
     | :-------------- | :------------ |
