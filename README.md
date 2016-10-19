@@ -20,8 +20,8 @@
     env    :
     NODE_ENV: development
     env_production:
-    NODE_ENV: production
-    
+    NODE_ENV: production   
+***
     $ pm2 start process.yml
 
 
